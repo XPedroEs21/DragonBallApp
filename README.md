@@ -68,3 +68,34 @@ cd frontend
 npm install
 npm start
 ✅ La aplicación se ejecutará en: http://localhost:3000/
+```
+📚 Estructura del Proyecto
+graphql
+Copy
+Edit
+📦 dragonball-app  
+ ┣ 📂 backend
+ ┃ ┣ 📂 api
+ ┃ ┃ ┣ 📜 models.py  # Modelos de Django
+ ┃ ┃ ┣ 📜 views.py   # Vistas del API REST
+ ┃ ┃ ┣ 📜 urls.py    # Endpoints
+ ┃ ┣ 📜 settings.py  # Configuración de Django
+ ┃ ┗ 📜 manage.py
+ ┣ 📂 frontend
+ ┃ ┣ 📂 src
+ ┃ ┃ ┣ 📂 components
+ ┃ ┃ ┣ 📂 pages
+ ┃ ┃ ┣ 📂 redux
+ ┃ ┃ ┣ 📜 App.jsx
+ ┃ ┃ ┣ 📜 index.js
+ ┃ ┗ 📜 package.json
+ ┣ 📜 README.md
+🐛 Errores Comunes y Soluciones
+🚨 Error: No carga personajes
+✔️ Verifica que el backend está corriendo en http://127.0.0.1:8000/.
+
+🔥 Error: No se guardan los favoritos
+✔️ Asegúrate de haber iniciado sesión antes de marcar favoritos.
+
+⚠️ Error: JWT Expirado
+✔️ Usa refresh_token para obtener un nuevo token de acceso.
