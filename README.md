@@ -70,12 +70,3 @@ npm start
 ✅ La aplicación se ejecutará en: http://localhost:3000/
 ```
 
-🐛 Errores Comunes y Soluciones
-🚨 Error: No carga personajes
-✔️ Verifica que el backend está corriendo en http://127.0.0.1:8000/.
-
-🔥 Error: No se guardan los favoritos
-✔️ Asegúrate de haber iniciado sesión antes de marcar favoritos.
-
-⚠️ Error: JWT Expirado
-✔️ Usa refresh_token para obtener un nuevo token de acceso.
