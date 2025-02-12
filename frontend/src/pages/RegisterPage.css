@@ -1,0 +1,77 @@
+/* 🎨 Fondo con temática de Dragon Ball */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #FF7300, #FFB300, #f05630);
+}
+
+/* 📄 Tarjeta blanca con sombra */
+.register-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    width: 400px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.shenron-logo {
+    width: 250px;
+    height: auto;
+}
+
+/* 📝 Inputs con bordes más definidos */
+.register-card .form-control {
+    background: white;
+    border: 1px solid #ccc;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.register-card .form-control:focus {
+    border-color: #FF7300;
+    box-shadow: 0 0 5px rgba(255, 115, 0, 0.5);
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* 🟢 Botón verde estilo Shen Long */
+.register-button {
+    background: linear-gradient(135deg, #388E3C, #2E7D32);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.register-button:hover {
+    background: linear-gradient(135deg, #2E7D32, #1B5E20);
+    transform: scale(1.05);
+}
+
+.disabled-button {
+    background-color: #d6d6d6 !important;
+    color: #888 !important;
+    cursor: not-allowed;
+    border: none;
+}

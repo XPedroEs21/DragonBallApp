@@ -1,0 +1,75 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #FF7300, #FFB300, #f05630);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.5)!important; /* More transparent gray color */
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.shenron-logo {
+    width: 250px;
+    height: auto;
+}
+
+.instructions {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.button-primary {
+    background: linear-gradient(135deg, #D32F2F, #B71C1C);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-primary:hover {
+    background: linear-gradient(135deg, #B71C1C, #D32F2F);
+    transform: scale(1.05);
+}
+
+.button-secondary {
+    background: linear-gradient(135deg, #1A73E8, #0D47A1);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-secondary:hover {
+    background: linear-gradient(135deg, #0D47A1, #1A73E8);
+    transform: scale(1.05);
+}
+
+.glass-card h2 {
+    margin-bottom: 15px;
+}
+
+.glass-card p {
+    margin-bottom: 10px;
+}

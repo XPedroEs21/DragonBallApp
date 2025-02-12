@@ -1,0 +1,69 @@
+/* 📌 Navbar fija y estilizada */
+.navbar {
+    background: linear-gradient(135deg, #FF7300, #FFB300, #f05630) !important;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+/* 🐉 Ajuste del Logo en Navbar */
+.navbar-logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* 🔍 Estilización de la Barra de Búsqueda */
+.navbar .form-control {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 8px;
+    border: 1px solid #fff;
+}
+
+.navbar .form-control:focus {
+    border-color: #FF7300;
+    box-shadow: 0 0 8px rgba(255, 115, 0, 0.6);
+}
+
+/* ❤️ Botón de Favoritos con Contador */
+.navbar .btn-danger {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+.navbar .btn-danger:hover {
+    background: #B71C1C;
+}
+
+/* 👤 Estilización del Botón de Usuario */
+.navbar .dropdown-toggle {
+    background: linear-gradient(135deg, #FFD700, #FFAA00) !important;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+}
+
+.navbar .dropdown-toggle:hover {
+    background: linear-gradient(135deg, #FFAA00, #FF7300) !important;
+    color: white;
+}
+
+.navbar .dropdown-menu {
+    background: #FFF5CC;
+    border-radius: 10px;
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: black;
+}
+
+.navbar .dropdown-item:hover {
+    background: #FFAA00;
+    color: white;
+}
